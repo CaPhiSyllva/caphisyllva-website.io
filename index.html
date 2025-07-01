@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cauã Philip Silva - Currículo</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Cauã Philip Silva - Currículo Profissional</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css"></style>
 </head>
 <body>
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
     <header>
         <div class="container profile-container">
             <div class="profile-img">
@@ -32,15 +37,25 @@
             </div>
             
             <div class="social-links">
-                <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/cau%C3%A3-philip-silva/" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/CaPhiSyllva" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="nav-container">
+                <div class="nav-links">
+                    <a href="#profile" class="active">Perfil</a>
+                    <a href="#experience">Experiência</a>
+                    <a href="#education">Formação</a>
+                    <a href="#certifications">Certificações</a>
+                    <a href="#skills">Competências</a>
+                </div>
             </div>
         </div>
     </header>
 
     <main class="container">
         <section id="profile">
-            <h2 class="section-title">Perfil Profissional</h2>
+            <h2 class="section-title"><i class="fas fa-user-tie"></i> Perfil Profissional</h2>
             <div class="card">
                 <div class="profile-content">
                     <p>Profissional de TI com sólida experiência em suporte técnico N1/N2 e cibersegurança, atuando em ambientes logísticos críticos. Especialista em administração de sistemas automatizados (SORTER/WMS), monitoramento avançado de redes (Zabbix, Wireshark) e análise de vulnerabilidades com foco em mitigação de riscos.</p>
@@ -50,7 +65,7 @@
         </section>
 
         <section id="experience">
-            <h2 class="section-title">Experiência Profissional</h2>
+            <h2 class="section-title"><i class="fas fa-briefcase"></i> Experiência Profissional</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
@@ -83,7 +98,7 @@
         </section>
 
         <section id="education">
-            <h2 class="section-title">Formação Acadêmica</h2>
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Formação Acadêmica</h2>
             <div class="card education">
                 <h3>Bacharel em Ciência da Computação</h3>
                 <p>Centro Universitário FAM — Jundiaí, SP</p>
@@ -92,8 +107,8 @@
         </section>
 
         <section id="certifications">
-            <h2 class="section-title">Certificações e Cursos</h2>
-            <div class="card certifications">
+            <h2 class="section-title"><i class="fas fa-certificate"></i> Certificações e Cursos</h2>
+            <div class="card">
                 <div class="cert-item">
                     <div class="cert-icon">
                         <i class="fas fa-shield-alt"></i>
@@ -118,36 +133,120 @@
         </section>
 
         <section id="skills">
-            <h2 class="section-title">Competências</h2>
+            <h2 class="section-title"><i class="fas fa-laptop-code"></i> Competências</h2>
             <div class="skills-container">
                 <div class="card skill-category">
-                    <h3>Técnicas</h3>
+                    <h3><i class="fas fa-cogs"></i> Técnicas</h3>
                     <ul class="skill-list">
-                        <li><i class="fas fa-code"></i>Linguagens: Python, SQL, PowerShell</li>
-                        <li><i class="fas fa-desktop"></i>Sistemas Operacionais: Windows, Linux</li>
-                        <li><i class="fas fa-tools"></i>Ferramentas: Zabbix, Wireshark, Nmap, OpenVAS</li>
-                        <li><i class="fas fa-headset"></i>Suporte Técnico: Hardware, Software, WMS, Automação SORTER</li>
-                        <li><i class="fas fa-search"></i>Análise de Vulnerabilidades: identificação e mitigação de riscos</li>
-                        <li><i class="fas fa-file-excel"></i>Pacote Office: Intermediário (Excel, Word, PowerPoint)</li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Linguagens: Python, SQL, PowerShell</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Sistemas Operacionais: Windows, Linux</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Ferramentas: Zabbix, Wireshark, Nmap, OpenVAS</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Suporte Técnico: Hardware, Software, WMS, Automação SORTER</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Análise de Vulnerabilidades</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Pacote Office: Intermediário</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 
                 <div class="card skill-category">
-                    <h3>Comportamentais</h3>
+                    <h3><i class="fas fa-user-check"></i> Comportamentais</h3>
                     <ul class="skill-list">
-                        <li><i class="fas fa-fire"></i>Resolução eficiente de problemas técnicos sob pressão</li>
-                        <li><i class="fas fa-chart-line"></i>Otimização contínua de processos operacionais</li>
-                        <li><i class="fas fa-lock"></i>Gestão eficaz de ativos de TI com foco em segurança</li>
-                        <li><i class="fas fa-users"></i>Comunicação clara e colaborativa entre equipes</li>
-                        <li><i class="fas fa-lightbulb"></i>Mindset inovador orientado a resultados</li>
-                        <li><i class="fas fa-clipboard-check"></i>Documentação precisa de processos e incidentes</li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Resolução eficiente de problemas técnicos sob pressão</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Otimização contínua de processos operacionais</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Gestão eficaz de ativos de TI com foco em segurança</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Comunicação clara e colaborativa entre equipes</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Mindset inovador orientado a resultados</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Documentação precisa de processos e incidentes</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
         </section>
         
         <div class="download-container">
-            <a href="#" class="download-btn">
+            <a href="#" class="download-btn" id="printBtn">
                 <i class="fas fa-download"></i>Baixar Currículo em PDF
             </a>
         </div>
@@ -159,7 +258,7 @@
             <p>Desenvolvido com HTML, CSS e JavaScript</p>
         </div>
     </footer>
-
     <script src="script.js"></script>
+    
 </body>
 </html>
