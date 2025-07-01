@@ -27,7 +27,7 @@ Ideal para ser usado como portfólio público, PDF ou currículo interativo hosp
 ## 🚀 Como Usar
 
 1. Clone o repositório:
-```bash
+```
 git clone https://github.com/CaPhiSyllva/curriculo-profissional.git
 Abra o arquivo index.html em seu navegador favorito.
 
@@ -36,13 +36,12 @@ Clique no botão 🌓 para alternar entre os modos claro e escuro.
 Utilize o botão 📄 Baixar Currículo em PDF para imprimir/exportar.
 
 📁 Estrutura do Projeto
-pgsql
-Copiar
-Editar
+
 📦 curriculo-profissional/
 ├── index.html
 ├── style.css
 └── script.js
+
 🔒 Sobre Mim
 Sou Analista de Cibersegurança e entusiasta de tecnologia, com foco em infraestrutura, segurança ofensiva e automação de processos. Busco constantemente alinhar boas práticas tradicionais com soluções modernas para garantir ambientes de TI robustos e resilientes.
 
